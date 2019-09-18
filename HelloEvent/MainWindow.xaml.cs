@@ -31,15 +31,15 @@ namespace HelloEvent
 
             this.DataContext = vm;
 
-            this.button1.Click += delegate
-            {
-            };
+            //this.button1.Click += delegate
+            //{
+            //};
 
             this.checkBox.Click += delegate
             {
                 vm.CanChecked = (bool)this.checkBox.IsChecked;
 
-                vm.BuildCommand.RaiseCanExecuteChanged();
+                //vm.BuildCommand.RaiseCanExecuteChanged();
             };
 
             //this.checkBox1.IsChecked = vm.BoxSet;

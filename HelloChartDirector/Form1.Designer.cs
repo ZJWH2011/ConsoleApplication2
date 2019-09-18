@@ -34,9 +34,9 @@
             // 
             // winChartViewer1
             // 
-            this.winChartViewer1.Location = new System.Drawing.Point(60, 47);
+            this.winChartViewer1.Location = new System.Drawing.Point(28, 27);
             this.winChartViewer1.Name = "winChartViewer1";
-            this.winChartViewer1.Size = new System.Drawing.Size(317, 233);
+            this.winChartViewer1.Size = new System.Drawing.Size(894, 553);
             this.winChartViewer1.TabIndex = 0;
             this.winChartViewer1.TabStop = false;
             // 

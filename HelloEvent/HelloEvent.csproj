@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +57,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ViewModel1.cs" />
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,6 +73,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +104,237 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\版本6  切图-77.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

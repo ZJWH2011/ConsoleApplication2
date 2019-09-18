@@ -51,6 +51,19 @@ namespace ConsoleApplication2
         }
     }
 
+    internal abstract class HeAS
+    {
+        protected abstract void hehh();
+    }
+
+     class ADDDD : HeAS
+    {
+        protected override void hehh()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
